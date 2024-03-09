@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: grey
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form label,
+form input,
+form select {
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+}
+
+form select {
+    height: 30px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    text-align: left;
+}
+
+th {
+    background-color: whitesmoke;
+}
+
+#foodList {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+#foodList li {
+    margin-right: 26px; /* Adjust spacing between food options */
+}
+
+#foodList label {
+    margin-left: 7px; /* Adjust spacing between checkbox and label */
+}
+
+#gender{
+    width: calc(51% - 12px);
+}
